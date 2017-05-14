@@ -12,14 +12,14 @@ Es un módulo de clase **ClaseArchivosAdjuntos.cls** para una base de datos Micr
 - Facilitar al máximo su uso desde el formulario
 - Poder ser usado en formularios no independientes
 - Renombrar variables
-- Creación de nuevas funciones para no repetir c�digo
+- Creación de nuevas funciones para no repetir código
 - Reescribir comentarios y eliminar otros
 - Eliminar variables globales usadas como locales
 - Facilitar renombrado de las carpetas
 - Reescritura de código para facilitar su compresión
 - Convertirlo en un módulo de Clase
 - Añadir propiedad *CarpetaDatos* para separar datos por tablas
-- Añadir propiedad *NombreTabla* para indicar la ruta raíz a la BD de 	 tabla vinculada
+- Añadir propiedad *NombreTabla* para indicar la ruta raíz a la BD de tabla vinculada
 - Añadir propiedad *CarpetaRaiz* para ubicar exactamente los adjuntos
 
 ## Requisitos
@@ -38,8 +38,8 @@ Registrar estas librerías (>Herramientas>Referencias)
 
 En la tabla se necesita que exista:
 
- - un campo único [id]
- - y un campo de tipo *memo* o *texto largo* [adjuntos]
+ - un campo único **id**
+ - y un campo de tipo *memo* o *texto largo* **adjuntos**
 
 ### Formulario
 
