@@ -2,10 +2,6 @@
 
 Refactorización del módulo de [neckkito](http://siliconproject.com.ar/neckkito/)
 
-## Código
-
-Es un módulo de clase **ClaseArchivosAdjuntos.cls** para una base de datos Microsoft Access.
-
 ## Características
 
 - Flexibilidad en el nombre de los campos
@@ -24,7 +20,7 @@ Es un módulo de clase **ClaseArchivosAdjuntos.cls** para una base de datos Micr
 
 ## Ejemplo
 
-### Tabla
+### 1) Tabla
 
 | **id** | nombre | telefono | direccion | **adjuntos** |
 |--------|--------|----------|-----------|--------------|
@@ -33,11 +29,11 @@ Es un módulo de clase **ClaseArchivosAdjuntos.cls** para una base de datos Micr
 | 3 | Don Pimpon | | Barrio Sésamo, 1 | |
 | 4 | Sherlock Holmes | | Baker Street, 221B, Londres | |
 
-### Formulario
+### 2) Formulario
 
 ![formulario](img/form.png)
 
-### Carpetas y archivos
+### 3.1) Carpetas y archivos
 
 - CarpetaRaíz/
     - BaseDatos.mdb
@@ -51,7 +47,7 @@ Es un módulo de clase **ClaseArchivosAdjuntos.cls** para una base de datos Micr
         - Temp/
 
 
-### Carpeta y archivos si la BD tiene los datos vinculados
+### 3.2) Carpeta y archivos si la BD tiene los datos vinculados
 
 - CarpetaBDPrincipal/
     - BDPrincipal.mdb
@@ -66,10 +62,15 @@ Es un módulo de clase **ClaseArchivosAdjuntos.cls** para una base de datos Micr
                 - Tulips.jpg
         - Temp/
 
+## Código
+
+Es el módulo de clase **ClaseArchivosAdjuntos.cls**.
+
+Este archivo se debería importar desde el Visual Basic (ALT F11) de la base de datos Microsoft Access.
 
 ## Requisitos
 
-Registrar estas librerías (>Herramientas>Referencias)
+Registrar estas librerías (>Herramientas>Referencias) desde la ventana de Visual Basic del Access
 
  - Visual Basic For Applications
  - Microsoft Access xx.x Object Library
@@ -79,14 +80,14 @@ Registrar estas librerías (>Herramientas>Referencias)
 
 ## Forma de empleo
 
-### Tabla
+### A) Tabla
 
 En la tabla se necesita que exista:
 
- - un campo único **id**
- - y un campo de tipo *memo* o *texto largo* **adjuntos**
+ - un campo indexado sin duplicados, por ejemplo el **id**
+ - y un campo de tipo *memo* o *texto largo* llamado por ejemplo **adjuntos**
 
-### Formulario
+### B) Formulario
 
 #### Se necesitan 3 controles en el formulario:
 
