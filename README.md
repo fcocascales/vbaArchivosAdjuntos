@@ -2,6 +2,13 @@
 
 Refactorización del módulo de [neckkito](http://siliconproject.com.ar/neckkito/)
 
+<<<<<<< HEAD
+=======
+## Código
+
+Es un módulo de clase **ClaseArchivosAdjuntos.cls** para una base de datos Microsoft Access.
+
+>>>>>>> 4260a3b539819e00576ffde7133895d9cee7391e
 ## Características
 
 - Flexibilidad en el nombre de los campos
@@ -18,6 +25,7 @@ Refactorización del módulo de [neckkito](http://siliconproject.com.ar/neckkito
 - Añadir propiedad *NombreTabla* para indicar la ruta raíz a la BD de tabla vinculada
 - Añadir propiedad *CarpetaRaiz* para ubicar exactamente los adjuntos
 
+<<<<<<< HEAD
 ## Ejemplo
 
 ### 1) Tabla
@@ -71,6 +79,11 @@ Este archivo se debería importar desde el Visual Basic (ALT F11) de la base de 
 ## Requisitos
 
 Registrar estas librerías (>Herramientas>Referencias) desde la ventana de Visual Basic del Access
+=======
+## Requisitos
+
+Registrar estas librerías (>Herramientas>Referencias)
+>>>>>>> 4260a3b539819e00576ffde7133895d9cee7391e
 
  - Visual Basic For Applications
  - Microsoft Access xx.x Object Library
@@ -80,6 +93,7 @@ Registrar estas librerías (>Herramientas>Referencias) desde la ventana de Visua
 
 ## Forma de empleo
 
+<<<<<<< HEAD
 ### A) Tabla
 
 En la tabla se necesita que exista:
@@ -92,6 +106,20 @@ En la tabla se necesita que exista:
 #### Se necesitan 3 controles en el formulario:
 
   1. Un id que debe ser único y es como se llamarán las subcarpetas dentro de Adjuntos/Datos
+=======
+### Tabla
+
+En la tabla se necesita que exista:
+
+ - un campo único **id**
+ - y un campo de tipo *memo* o *texto largo* **adjuntos**
+
+### Formulario
+
+#### Se necesitan 3 controles en el formulario:
+
+  1. Un id que debe ser único y es como se llamarán las subcarpetas dentro e Adjuntos/Datos
+>>>>>>> 4260a3b539819e00576ffde7133895d9cee7391e
   2. Un campo para guardar el nombre de los adjuntos. Debe ser de tipo texto. Debería ser visible=no
   3. Un combobox independiente para seleccionar el documento adjunto actual
 
